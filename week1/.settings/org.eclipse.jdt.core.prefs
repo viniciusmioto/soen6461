@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler1.codegen.targetPlatform=26
+org.eclipse.jdt.core.compiler1.compliance=26
+org.eclipse.jdt.core.compiler1.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler1.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler1.problem.reportPreviewFeatures=ignore
+org.eclipse.jdt.core.compiler1.release=disabled
+org.eclipse.jdt.core.compiler1.source=26
