@@ -19,7 +19,9 @@ public class Main {
         IFactory<Integer> factory;
 
         // Original Implementation
-        factory = new FactoryImpl1<>();
+        factory = new FactoryImpl1<>(); // Problem: we could create multiple instances
+        // Solution: week 6 - Singleton
+
         final ISort<Integer> s1 = factory.getSortAlgorithm();
         List<Integer> sortedList = s1.sort(list);
         System.out.println(sortedList);

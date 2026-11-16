@@ -1,0 +1,6 @@
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/client/Main.java
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/sort/IFactory.java
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/sort/ISort.java
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/sort/impl1/AbstractSort.java
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/sort/impl1/FactoryImpl1.java
+/Users/viniciusmioto/Projects/masters/soen6461/week6/src/main/java/singleton_0/sort/impl1/InsertionSort.java

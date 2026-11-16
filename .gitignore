@@ -23,7 +23,6 @@
 hs_err_pid*
 replay_pid*
 
-.idea
 .DS_Store
 # directories that start with "_", usually books, deliverables, tasks, and slides
 _*/*
