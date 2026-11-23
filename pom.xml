@@ -19,9 +19,10 @@
         <module>week2</module>
         <module>week3</module>
         <module>week4</module>
-        <module>week5</module>
         <module>week6</module>
+        <module>week7</module>
         <module>excel_files</module>
+        <module>week8</module>
     </modules>
 
 </project>

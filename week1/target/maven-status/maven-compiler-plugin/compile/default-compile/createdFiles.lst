@@ -1,0 +1,12 @@
+org/example/SubType.class
+org/example/SubtypingExample.class
+org/example/ReuseExample.class
+org/example/Length.class
+org/example/Measure.class
+org/example/Size.class
+org/example/Reuse1.class
+org/example/Reuse2.class
+org/example/MeasureExample.class
+org/example/Type.class
+org/example/CommonCode.class
+org/example/AbstractMeasure.class

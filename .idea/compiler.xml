@@ -9,12 +9,13 @@
         <module name="ExcelFiles" />
         <module name="week1" />
         <module name="OverridingAndOverloading" />
+        <module name="week8" />
         <module name="LiskovPrinciple" />
         <module name="DuckTyping" />
         <module name="week4" />
         <module name="WriterExample" />
-        <module name="week5" />
         <module name="week6" />
+        <module name="week7" />
       </profile>
     </annotationProcessing>
   </component>

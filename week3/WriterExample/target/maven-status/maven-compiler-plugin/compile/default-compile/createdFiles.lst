@@ -1,0 +1,7 @@
+org/example/SystemWriter.class
+org/example/Main.class
+org/example/HTMLWriter.class
+org/example/Square.class
+org/example/IWriter.class
+org/example/IShape.class
+org/example/Rect.class

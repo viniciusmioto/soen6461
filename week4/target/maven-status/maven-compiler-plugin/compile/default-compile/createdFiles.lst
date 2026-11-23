@@ -1,5 +1,5 @@
 compiler2/Field.class
-compiler3/Visitor.class
+compiler3/IVisitor.class
 compiler3/Field.class
 compiler3/Main.class
 compiler3/Method.class
