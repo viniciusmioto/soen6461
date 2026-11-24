@@ -8,7 +8,5 @@ public interface ITypeOfSort<E extends Comparable<? super E>> extends ISort<E> {
 
     String getTypeName();
 
-    List<E> sort(final List<E> aList);
-
     void addSortAlgorithm(final ISort<E> aSortAlgorithm);
 }

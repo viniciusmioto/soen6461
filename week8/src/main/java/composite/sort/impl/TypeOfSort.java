@@ -29,6 +29,10 @@ class TypeOfSort<E extends Comparable<? super E>> extends AbstractSort<E> implem
         final Iterator<ISort<E>> iterator = this.listOfSortAlgorithms.iterator();
         List<E> sortedList = null;
 
+        if (this.listOfSortAlgorithms.isEmpty()) {
+            throw new IllegalStateException("Type of sort '" + this.typeName + "' has no sort algorithm");
+        }
+
         while (iterator.hasNext()) {
             final ISort<E> sortAlgorithm = (ISort<E>) iterator.next();
             sortedList = sortAlgorithm.sort(aList);
@@ -36,6 +40,7 @@ class TypeOfSort<E extends Comparable<? super E>> extends AbstractSort<E> implem
         return sortedList;
     }
 
+    // "Leak" of mutable list, clients could change it!
     public List<ISort<E>> getSortAlgorithms() {
         return this.listOfSortAlgorithms;
     }

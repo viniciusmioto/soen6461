@@ -26,3 +26,4 @@ replay_pid*
 .DS_Store
 # directories that start with "_", usually books, deliverables, tasks, and slides
 _*/*
+/.metadata/

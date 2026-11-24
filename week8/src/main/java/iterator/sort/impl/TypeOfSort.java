@@ -1,6 +1,7 @@
 package iterator.sort.impl;
 
 import iterator.sort.ISort;
+import iterator.sort.ISortIterator;
 import iterator.sort.ITypeOfSort;
 
 import java.util.ArrayList;
@@ -29,6 +30,10 @@ class TypeOfSort<E extends Comparable<? super E>> extends AbstractSort<E> implem
         final Iterator<ISort<E>> iterator = this.listOfSortAlgorithms.iterator();
         List<E> sortedList = null;
 
+        if (this.listOfSortAlgorithms.isEmpty()) {
+            throw new IllegalStateException("Type of sort '" + this.typeName + "' has no sort algorithm");
+        }
+
         while (iterator.hasNext()) {
             final ISort<E> sortAlgorithm = (ISort<E>) iterator.next();
             sortedList = sortAlgorithm.sort(aList);
@@ -36,8 +41,8 @@ class TypeOfSort<E extends Comparable<? super E>> extends AbstractSort<E> implem
         return sortedList;
     }
 
-    public List<ISort<E>> getSortAlgorithms() {
-        return this.listOfSortAlgorithms;
+    public ISortIterator<E> getSortAlgorithms() {
+        return new ConcreteSortIterator<E>(this.listOfSortAlgorithms);
     }
 
 }

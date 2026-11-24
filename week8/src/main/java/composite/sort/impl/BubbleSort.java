@@ -10,7 +10,7 @@ class BubbleSort<E extends Comparable<? super E>> extends InternalSort<E> implem
     public List<E> sort(final List<E> aList) {
         final List<E> temporaryList = new ArrayList<>(aList);
         boolean swapped;
-        
+
         for (int end = temporaryList.size() - 1; end > 0; end--) {
             swapped = false;
             for (int i = 0; i < end; i++) {
