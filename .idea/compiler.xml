@@ -13,6 +13,7 @@
         <module name="LiskovPrinciple" />
         <module name="DuckTyping" />
         <module name="week4" />
+        <module name="file-system-exercise" />
         <module name="WriterExample" />
         <module name="week6" />
         <module name="week7" />

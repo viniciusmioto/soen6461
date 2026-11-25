@@ -23,6 +23,7 @@
         <module>week7</module>
         <module>excel_files</module>
         <module>week8</module>
+        <module>file-system-exercise</module>
     </modules>
 
 </project>
