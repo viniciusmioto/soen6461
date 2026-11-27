@@ -1,13 +1,21 @@
 package fs.impl;
 
 abstract class AbstractFileSystemItem {
-    String name;
+    private String name;
+
+    AbstractFileSystemItem(String name) {
+        this.name = name;
+    }
 
     public abstract int getSize();
 
-    public abstract void print();
+    public abstract void print(String indent);
 
     public String getName() {
         return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

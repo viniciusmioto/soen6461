@@ -5,5 +5,9 @@ public interface IFileSystemItem {
 
     int getSize();
 
-    void print();
+    void print(String indent);
+
+    default void print() {
+        print("");
+    }
 }
